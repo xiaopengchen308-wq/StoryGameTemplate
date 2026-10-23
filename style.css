@@ -1,0 +1,46 @@
+body {
+            background-color: lightblue;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        form {
+            background-color: white;
+            border: 3px solid blue;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+
+        label {
+            color: darkblue;
+            font-weight: bold;
+            word-spacing: 3px;
+        }
+
+        input {
+            border: 2px solid gray;
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: lightblue;
+            color: darkblue;
+            font-weight: bold;
+            border: 2px solid blue;
+        }
+
+        a {
+            color: darkblue;
+            font-weight: bold;
+        }
