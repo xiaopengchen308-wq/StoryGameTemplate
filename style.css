@@ -1,46 +1,58 @@
 body {
-            background-color: lightblue;
-            color: black;
-            font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+form {
+    background-color: white;
+    border: 3px solid blue;
+    padding: 20px;
+    margin: 20px;
         }
 
-        h1 {
-            color: darkblue;
-            text-align: center;
-            font-weight: bold;
-            letter-spacing: 2px;
+img {
+    border-radius: 20px;
         }
 
-        form {
-            background-color: white;
-            border: 3px solid blue;
-            padding: 20px;
-            margin: 20px;
-        }
+label {
+    color: darkblue;
+    font-weight: bold;
+    word-spacing: 3px;
+}
 
-        img {
-            border-radius: 20px;
-        }
+input {
+    border: 2px solid gray;
+    padding: 5px;
+}
 
-        label {
-            color: darkblue;
-            font-weight: bold;
-            word-spacing: 3px;
-        }
+input[type="submit"] {
+    background-color: lightblue;
+    color: darkblue;
+    font-weight: bold;
+    border: 2px solid blue;
+}
 
-        input {
-            border: 2px solid gray;
-            padding: 5px;
-        }
+a {
+    color: darkblue;
+    font-weight: bold;
+}
 
-        input[type="submit"] {
-            background-color: lightblue;
-            color: darkblue;
-            font-weight: bold;
-            border: 2px solid blue;
-        }
 
-        a {
-            color: darkblue;
-            font-weight: bold;
-        }
+ 
+.card{
+    border: 2px solid darkblue;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(231, 180, 231);
+
+
+}
