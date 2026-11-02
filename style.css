@@ -1,58 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
+
+/* Main Page Styling */
 body {
-    background-color: lightblue;
-    color: black;
-    font-family: Arial, sans-serif;
+    background-color: #141d2b;
+    color: #f5f5f0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
 }
 
+/* Header */
 header {
-    color: darkblue;
+    background-color: #202d3e;
+    color: #f5f5f0;
+    padding: 15px;
     text-align: center;
-    font-weight: bold;
-    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    border: none !important;
+    padding: 10px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #f5f5f0;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    color: #f2b544;
     text-decoration: underline;
 }
 
-form {
-    background-color: white;
-    border: 3px solid blue;
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
     padding: 20px;
-    margin: 20px;
-        }
-
-img {
-    border-radius: 20px;
-        }
-
-label {
-    color: darkblue;
-    font-weight: bold;
-    word-spacing: 3px;
 }
 
-input {
-    border: 2px solid gray;
-    padding: 5px;
-}
-
-input[type="submit"] {
-    background-color: lightblue;
-    color: darkblue;
-    font-weight: bold;
-    border: 2px solid blue;
-}
-
-a {
-    color: darkblue;
-    font-weight: bold;
-}
-
-
- 
-.card{
-    border: 2px solid darkblue;
-    padding: 10px;
+/* Heading Class */
+.heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    color: #f2b544;
+    letter-spacing: 2px;
     text-align: center;
-    background-color: rgb(231, 180, 231);
+    text-decoration: none;
+}
 
+/* Other Headings */
+h1, h2 {
+    color: #f2b544;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
 
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+/* Subheading Class */
+.subheading {
+    color: #f2b544;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Body Text Class */
+.body-text {
+    color: #f5f5f0;
+    font-size: 16px;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+/* Card Class */
+.card {
+    background-color: #202d3e;
+    border: 2px solid #445062;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+/* Form */
+form {
+    background-color: #202d3e;
+    border: 2px solid #445062;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+}
+
+/* Images */
+img {
+    border: 2px solid #445062 !important;
+    border-radius: 12px;
+    padding: 5px !important;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Labels */
+label {
+    color: #f5f5f0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Inputs */
+input {
+    border: 2px solid #8590a0;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 5px;
+}
+
+input[type="radio"] {
+    accent-color: #f2b544;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    background-color: #f2b544;
+    color: #141d2b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #f2b544;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #f5f5f0;
+    border-color: #f5f5f0;
+}
+
+/* Links */
+a {
+    color: #f2b544;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Game Scene */
+#scene-title {
+    font-size: 40px;
+    text-align: center;
+    color: #f2b544;
+}
+
+#character-name {
+    color: #f5f5f0;
+    text-align: center;
+}
+
+#scene-text {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+/* Choice Buttons */
+#choices-container button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Fear Display */
+#health-display {
+    color: #f2b544;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Inventory */
+#inventory-display {
+    color: #f5f5f0;
+    font-weight: bold;
+}
+
+/* Game Message */
+#message-display {
+    color: #f2b544;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #202d3e;
+    color: #f5f5f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile Styling */
+@media (max-width: 600px) {
+    main {
+        padding: 12px;
+        margin: 15px auto;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    h1, .heading {
+        font-size: 34px;
+    }
+
+    nav ul {
+        display: block;
+    }
 }
